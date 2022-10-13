@@ -1,0 +1,297 @@
+============================================================================================================================================================
+Symbol Table: Global                                                             Parent: null
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name           Type                     Category       Initial Value                                                     Size        Offset      Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+printInt       integer                  function                                                                         4           0           printInt
+printStr       integer                  function                                                                         4           4           printStr
+readInt        integer                  function                                                                         4           8           readInt
+x              integer                  local          0                                                                 4           12          null
+t00            integer                  temp           0                                                                 4           16          null
+minimum        integer                  function                                                                         4           20          minimum
+main           integer                  function                                                                         4           24          main
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================================
+Symbol Table: printInt                                                           Parent: Global
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name           Type                     Category       Initial Value                                                     Size        Offset      Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+num            integer                  param                                                                            4           0           null
+return         integer                  local                                                                            4           4           null
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================================
+Symbol Table: printStr                                                           Parent: Global
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name           Type                     Category       Initial Value                                                     Size        Offset      Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+c              ptr(char)                param                                                                            4           0           null
+return         integer                  local                                                                            4           4           null
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================================
+Symbol Table: readInt                                                            Parent: Global
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name           Type                     Category       Initial Value                                                     Size        Offset      Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+eP             ptr(integer)             param                                                                            4           0           null
+return         integer                  local                                                                            4           4           null
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================================
+Symbol Table: minimum                                                            Parent: Global
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name           Type                     Category       Initial Value                                                     Size        Offset      Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+x              integer                  param                                                                            4           0           null
+y              integer                  param                                                                            4           4           null
+return         integer                  local                                                                            4           8           null
+ans            integer                  local                                                                            4           12          null
+t00            integer                  temp                                                                             4           16          null
+t01            integer                  temp                                                                             4           20          null
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================================
+Symbol Table: main                                                               Parent: Global
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name           Type                     Category       Initial Value                                                     Size        Offset      Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+return         integer                  local                                                                            4           0           null
+i              integer                  local                                                                            4           4           null
+j              integer                  local                                                                            4           8           null
+n1             integer                  local                                                                            4           12          null
+n2             integer                  local                                                                            4           16          null
+n              integer                  local                                                                            4           20          null
+a              integer                  local                                                                            4           24          null
+b              integer                  local                                                                            4           28          null
+e              ptr(integer)             local                                                                            4           32          null
+sum            integer                  local          0                                                                 4           36          null
+t00            integer                  temp           0                                                                 4           40          null
+arr1           arr(5, integer)          local                                                                            20          44          null
+t01            integer                  temp           5                                                                 4           64          null
+arr2           arr(5, arr(5, integer))  local                                                                            100         68          null
+t02            integer                  temp           5                                                                 4           168         null
+t03            integer                  temp           5                                                                 4           172         null
+t04            integer                  temp           5                                                                 4           176         null
+t05            integer                  temp                                                                             4           180         null
+t06            integer                  temp           0                                                                 4           184         null
+t07            integer                  temp                                                                             4           188         null
+t08            integer                  temp           100                                                               4           192         null
+t09            integer                  temp                                                                             4           196         null
+printStr       integer                  local                                                                            4           200         null
+t10            ptr(char)                temp           "\n      ######################################################\n"4           204         null
+t11            integer                  temp                                                                             4           208         null
+t12            ptr(char)                temp           "      ##                                                  ##\n"  4           212         null
+t13            integer                  temp                                                                             4           216         null
+t14            ptr(char)                temp           "      ##             Testing loops and arrays             ##\n"  4           220         null
+t15            integer                  temp                                                                             4           224         null
+t16            ptr(char)                temp           "      ##                                                  ##\n"  4           228         null
+t17            integer                  temp                                                                             4           232         null
+t18            ptr(char)                temp           "      ######################################################\n\n"4           236         null
+t19            integer                  temp                                                                             4           240         null
+t20            integer                  temp           5                                                                 4           244         null
+t21            integer                  temp                                                                             4           248         null
+t22            integer                  temp                                                                             4           252         null
+t23            integer                  temp                                                                             4           256         null
+t24            integer                  temp                                                                             4           260         null
+t25            integer                  temp                                                                             4           264         null
+t26            integer                  temp                                                                             4           268         null
+t27            integer                  temp                                                                             4           272         null
+t28            integer                  temp                                                                             4           276         null
+t29            integer                  temp           0                                                                 4           280         null
+t30            integer                  temp                                                                             4           284         null
+t31            integer                  temp                                                                             4           288         null
+t32            integer                  temp           0                                                                 4           292         null
+t33            integer                  temp                                                                             4           296         null
+t34            integer                  temp                                                                             4           300         null
+t35            integer                  temp                                                                             4           304         null
+t36            integer                  temp                                                                             4           308         null
+t37            integer                  temp                                                                             4           312         null
+t38            integer                  temp                                                                             4           316         null
+t39            integer                  temp                                                                             4           320         null
+t40            integer                  temp                                                                             4           324         null
+t41            ptr(char)                temp           "      Sum of all array elements is : "                           4           328         null
+t42            integer                  temp                                                                             4           332         null
+printInt       integer                  local                                                                            4           336         null
+t43            integer                  temp                                                                             4           340         null
+t44            ptr(char)                temp           "      Testing result - OK\n"                                     4           344         null
+t45            integer                  temp                                                                             4           348         null
+t46            ptr(char)                temp           "\n      ######################################################\n"4           352         null
+t47            integer                  temp                                                                             4           356         null
+t48            ptr(char)                temp           "      ##                                                  ##\n"  4           360         null
+t49            integer                  temp                                                                             4           364         null
+t50            ptr(char)                temp           "      ##             Testing function calls               ##\n"  4           368         null
+t51            integer                  temp                                                                             4           372         null
+t52            ptr(char)                temp           "      ##                                                  ##\n"  4           376         null
+t53            integer                  temp                                                                             4           380         null
+t54            ptr(char)                temp           "      ######################################################\n\n"4           384         null
+t55            integer                  temp                                                                             4           388         null
+t56            integer                  temp           3                                                                 4           392         null
+t57            integer                  temp                                                                             4           396         null
+t58            ptr(integer)             temp                                                                             4           400         null
+t59            ptr(null)                temp                                                                             4           404         null
+t60            ptr(char)                temp           "      Enter 1st integer : "                                      4           408         null
+t61            integer                  temp                                                                             4           412         null
+readInt        integer                  local                                                                            4           416         null
+t62            integer                  temp                                                                             4           420         null
+t63            integer                  temp                                                                             4           424         null
+t64            ptr(char)                temp           "      Enter 2nd integer : "                                      4           428         null
+t65            integer                  temp                                                                             4           432         null
+t66            integer                  temp                                                                             4           436         null
+t67            integer                  temp                                                                             4           440         null
+minimum        integer                  local                                                                            4           444         null
+t68            integer                  temp                                                                             4           448         null
+t69            integer                  temp                                                                             4           452         null
+t70            ptr(char)                temp           "      Minimum of the two numbers is : "                          4           456         null
+t71            integer                  temp                                                                             4           460         null
+t72            integer                  temp                                                                             4           464         null
+t73            ptr(char)                temp           "      Testing result - OK\n"                                     4           468         null
+t74            integer                  temp                                                                             4           472         null
+t75            ptr(char)                temp           "\n"                                                              4           476         null
+t76            integer                  temp                                                                             4           480         null
+t77            integer                  temp           0                                                                 4           484         null
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+==================================================
+THREE ADDRESS CODE
+--------------------------------------------------
+	L0   :	t00 = 0
+	L1   :	x = t00
+
+minimum: 
+
+	L3   :	if x > y goto 6
+	L4   :	goto 7
+	L5   :	goto 11
+	L6   :	goto 9
+	L7   :	t00 = x
+	L8   :	goto 11
+	L9   :	t00 = y
+	L10  :	goto 11
+	L11  :	ans = t00
+	L12  :	ret ans
+
+main: 
+
+	L15  :	t00 = 0
+	L16  :	sum = t00
+	L17  :	t01 = 5
+	L18  :	t02 = 5
+	L19  :	t03 = 5
+	L20  :	t04 = 5
+	L21  :	n = t04
+	L22  :	t06 = 0
+	L23  :	i = t06
+	L24  :	t08 = 100
+	L25  :	j = t08
+	L26  :	op
+	L27  :	param t10
+	L28  :	t11 = call printStr, 1
+	L29  :	op
+	L30  :	param t12
+	L31  :	t13 = call printStr, 1
+	L32  :	op
+	L33  :	param t14
+	L34  :	t15 = call printStr, 1
+	L35  :	op
+	L36  :	param t16
+	L37  :	t17 = call printStr, 1
+	L38  :	op
+	L39  :	param t18
+	L40  :	t19 = call printStr, 1
+	L41  :	t20 = 5
+	L42  :	if i<t20 goto 44
+	L43  :	goto 51
+	L44  :	t21 = i
+	L45  :	i = i + 1
+	L46  :	j = j + 1
+	L47  :	t22 = i *4
+	L48  :	t23 = i *j
+	L49  :	arr1[t22] = t23
+	L50  :	goto 41
+	L51  :	t25 = i *4
+	L52  :	t26 = arr1[t25]
+	L53  :	t27 = sum + t26
+	L54  :	sum = t27
+	L55  :	if i<n goto 51
+	L56  :	goto 57
+	L57  :	t29 = 0
+	L58  :	i = t29
+	L59  :	if i<n goto 64
+	L60  :	goto 79
+	L61  :	t31 = i
+	L62  :	i = i + 1
+	L63  :	goto 59
+	L64  :	t32 = 0
+	L65  :	j = t32
+	L66  :	if j<n goto 71
+	L67  :	goto 61
+	L68  :	t34 = j
+	L69  :	j = j + 1
+	L70  :	goto 66
+	L71  :	t35 = i *20
+	L72  :	t37 = j *4
+	L73  :	t36 = t35 + t37
+	L74  :	t38 = i *j
+	L75  :	t39 = sum + t38
+	L76  :	t35[t36] = t39
+	L77  :	goto 68
+	L78  :	goto 61
+	L79  :	op
+	L80  :	param t41
+	L81  :	t42 = call printStr, 1
+	L82  :	param sum
+	L83  :	t43 = call printInt, 1
+	L84  :	op
+	L85  :	param t44
+	L86  :	t45 = call printStr, 1
+	L87  :	op
+	L88  :	param t46
+	L89  :	t47 = call printStr, 1
+	L90  :	op
+	L91  :	param t48
+	L92  :	t49 = call printStr, 1
+	L93  :	op
+	L94  :	param t50
+	L95  :	t51 = call printStr, 1
+	L96  :	op
+	L97  :	param t52
+	L98  :	t53 = call printStr, 1
+	L99  :	op
+	L100 :	param t54
+	L101 :	t55 = call printStr, 1
+	L102 :	t56 = 3
+	L103 :	b = t56
+	L104 :	t58 = &b
+	L105 :	e = t58
+	L106 :	op
+	L107 :	param t60
+	L108 :	t61 = call printStr, 1
+	L109 :	param e
+	L110 :	t62 = call readInt, 1
+	L111 :	n1 = t62
+	L112 :	op
+	L113 :	param t64
+	L114 :	t65 = call printStr, 1
+	L115 :	param e
+	L116 :	t66 = call readInt, 1
+	L117 :	n2 = t66
+	L118 :	param n1
+	L119 :	param n2
+	L120 :	t68 = call minimum, 2
+	L121 :	n = t68
+	L122 :	op
+	L123 :	param t70
+	L124 :	t71 = call printStr, 1
+	L125 :	param n
+	L126 :	t72 = call printInt, 1
+	L127 :	op
+	L128 :	param t73
+	L129 :	t74 = call printStr, 1
+	L130 :	op
+	L131 :	param t75
+	L132 :	t76 = call printStr, 1
+	L133 :	t77 = 0
+	L134 :	ret t77
+--------------------------------------------------
